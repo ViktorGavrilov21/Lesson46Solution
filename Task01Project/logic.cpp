@@ -25,3 +25,14 @@ int get_min(int array[], int size) {
 
 	return min;
 }
+
+double calculate_arithmetical_mean(int array[], int size) {
+	double sum = 0;
+
+	for (int i = 0; i < size; i++) {
+		sum += array[i];
+	}
+
+	return sum / size;
+}
+
