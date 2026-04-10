@@ -23,6 +23,11 @@ int main() {
 	print("\nAvg is " + to_string(avg) + "\n");
 	print("\nGeometrical mean is " + to_string(geom) + "\n");
 
+	swap_extreme_elements(array, size);
+
+	print("After array: ");
+	print(convert(array, size));
+
 
 	return 0;
 }
