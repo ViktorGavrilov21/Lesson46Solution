@@ -13,6 +13,12 @@ int main() {
 	print("Array: ");
 	print(convert(array, size));
 
+	int max = get_max(array, size);
+	int min = get_min(array, size);
+
+	print("\nMax value is " + to_string(max));
+	print("\nMin value is " + to_string(min) + "\n");
+
 
 	return 0;
 }
