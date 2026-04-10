@@ -16,10 +16,12 @@ int main() {
 	int max = get_max(array, size);
 	int min = get_min(array, size);
 	int avg = calculate_arithmetical_mean(array, size);
+	int geom = calculate_geometrical_mean(array, size);
 
 	print("\nMax value is " + to_string(max));
 	print("\nMin value is " + to_string(min) + "\n");
 	print("\nAvg is " + to_string(avg) + "\n");
+	print("\nGeometrical mean is " + to_string(geom) + "\n");
 
 
 	return 0;
