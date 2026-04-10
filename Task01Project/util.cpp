@@ -27,7 +27,7 @@ void init(int array[], int size, int a, int b) {
 		b = t;
 	}
 
-	for (int i = 1; i < size; i++) {
+	for (int i = 0; i < size; i++) {
 		array[i] = rand() % (b - a + 1) + a;
 	}
 }
